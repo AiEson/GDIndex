@@ -6361,6 +6361,7 @@ function markdown(el, data) {
     var html = md.render(data);
     $(el).show().html(html);
   }
+}
 window.onpopstate = function () {
   var path = window.location.pathname;
   render(path);
